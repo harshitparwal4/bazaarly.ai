@@ -1,0 +1,118 @@
+=============================== 
+Installing main ShoppingAI dependencies... 
+=============================== 
+npm verbose cli C:\Program Files\nodejs\node.exe C:\Users\bazzu\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js
+npm info using npm@10.8.3
+npm info using node@v20.17.0
+npm verbose title npm install
+npm verbose argv "install" "--loglevel" "verbose"
+npm verbose logfile logs-max:10 dir:C:\Users\bazzu\AppData\Local\npm-cache\_logs\2025-08-29T09_17_08_815Z-
+npm verbose logfile C:\Users\bazzu\AppData\Local\npm-cache\_logs\2025-08-29T09_17_08_815Z-debug-0.log
+npm verbose reify failed optional dependency D:\shopping\node_modules\fsevents
+npm verbose reify failed optional dependency D:\shopping\node_modules\@img\sharp-win32-ia32
+npm verbose reify failed optional dependency D:\shopping\node_modules\@img\sharp-wasm32
+npm verbose reify failed optional dependency D:\shopping\node_modules\@emnapi\runtime
+npm verbose reify failed optional dependency D:\shopping\node_modules\@img\sharp-linuxmusl-x64
+npm verbose reify failed optional dependency D:\shopping\node_modules\@img\sharp-linuxmusl-arm64
+npm verbose reify failed optional dependency D:\shopping\node_modules\@img\sharp-linux-x64
+npm verbose reify failed optional dependency D:\shopping\node_modules\@img\sharp-linux-s390x
+npm verbose reify failed optional dependency D:\shopping\node_modules\@img\sharp-linux-arm64
+npm verbose reify failed optional dependency D:\shopping\node_modules\@img\sharp-linux-arm
+npm verbose reify failed optional dependency D:\shopping\node_modules\@img\sharp-libvips-linuxmusl-x64
+npm verbose reify failed optional dependency D:\shopping\node_modules\@img\sharp-libvips-linuxmusl-arm64
+npm verbose reify failed optional dependency D:\shopping\node_modules\@img\sharp-libvips-linux-x64
+npm verbose reify failed optional dependency D:\shopping\node_modules\@img\sharp-libvips-linux-s390x
+npm verbose reify failed optional dependency D:\shopping\node_modules\@img\sharp-libvips-linux-arm64
+npm verbose reify failed optional dependency D:\shopping\node_modules\@img\sharp-libvips-linux-arm
+npm verbose reify failed optional dependency D:\shopping\node_modules\@img\sharp-libvips-darwin-x64
+npm verbose reify failed optional dependency D:\shopping\node_modules\@img\sharp-libvips-darwin-arm64
+npm verbose reify failed optional dependency D:\shopping\node_modules\@img\sharp-darwin-x64
+npm verbose reify failed optional dependency D:\shopping\node_modules\@img\sharp-darwin-arm64
+npm http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 1389ms
+npm http fetch GET 200 https://registry.npmjs.org/postcss 12ms (cache hit)
+npm http fetch GET 200 https://registry.npmjs.org/nth-check 16ms (cache hit)
+npm http fetch GET 200 https://registry.npmjs.org/webpack-dev-server 16ms (cache hit)
+npm http fetch GET 200 https://registry.npmjs.org/css-select 5ms (cache hit)
+npm http fetch GET 200 https://registry.npmjs.org/resolve-url-loader 5ms (cache hit)
+npm http fetch GET 200 https://registry.npmjs.org/@pmmmwh%2freact-refresh-webpack-plugin 6ms (cache hit)
+npm http fetch GET 200 https://registry.npmjs.org/react-scripts 9ms (cache hit)
+npm http fetch GET 200 https://registry.npmjs.org/svgo 4ms (cache hit)
+npm http fetch GET 200 https://registry.npmjs.org/@svgr%2fplugin-svgo 5ms (cache hit)
+npm http fetch GET 200 https://registry.npmjs.org/@svgr%2fwebpack 4ms (cache hit)
+
+up to date, audited 1464 packages in 3s
+
+295 packages are looking for funding
+  run `npm fund` for details
+
+9 vulnerabilities (3 moderate, 6 high)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+npm verbose cwd D:\shopping
+npm verbose os Windows_NT 10.0.26100
+npm verbose node v20.17.0
+npm verbose npm  v10.8.3
+npm verbose exit 0
+npm info ok
+=============================== 
+Installing main ShoppingAI dependencies... 
+=============================== 
+npm verbose cli C:\Program Files\nodejs\node.exe C:\Users\bazzu\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js
+npm info using npm@10.8.3
+npm info using node@v20.17.0
+npm verbose title npm install
+npm verbose argv "install" "--loglevel" "verbose"
+npm verbose logfile logs-max:10 dir:C:\Users\bazzu\AppData\Local\npm-cache\_logs\2025-08-29T09_18_43_962Z-
+npm verbose logfile C:\Users\bazzu\AppData\Local\npm-cache\_logs\2025-08-29T09_18_43_962Z-debug-0.log
+npm verbose reify failed optional dependency D:\shopping\node_modules\fsevents
+npm verbose reify failed optional dependency D:\shopping\node_modules\@img\sharp-win32-ia32
+npm verbose reify failed optional dependency D:\shopping\node_modules\@img\sharp-wasm32
+npm verbose reify failed optional dependency D:\shopping\node_modules\@emnapi\runtime
+npm verbose reify failed optional dependency D:\shopping\node_modules\@img\sharp-linuxmusl-x64
+npm verbose reify failed optional dependency D:\shopping\node_modules\@img\sharp-linuxmusl-arm64
+npm verbose reify failed optional dependency D:\shopping\node_modules\@img\sharp-linux-x64
+npm verbose reify failed optional dependency D:\shopping\node_modules\@img\sharp-linux-s390x
+npm verbose reify failed optional dependency D:\shopping\node_modules\@img\sharp-linux-arm64
+npm verbose reify failed optional dependency D:\shopping\node_modules\@img\sharp-linux-arm
+npm verbose reify failed optional dependency D:\shopping\node_modules\@img\sharp-libvips-linuxmusl-x64
+npm verbose reify failed optional dependency D:\shopping\node_modules\@img\sharp-libvips-linuxmusl-arm64
+npm verbose reify failed optional dependency D:\shopping\node_modules\@img\sharp-libvips-linux-x64
+npm verbose reify failed optional dependency D:\shopping\node_modules\@img\sharp-libvips-linux-s390x
+npm verbose reify failed optional dependency D:\shopping\node_modules\@img\sharp-libvips-linux-arm64
+npm verbose reify failed optional dependency D:\shopping\node_modules\@img\sharp-libvips-linux-arm
+npm verbose reify failed optional dependency D:\shopping\node_modules\@img\sharp-libvips-darwin-x64
+npm verbose reify failed optional dependency D:\shopping\node_modules\@img\sharp-libvips-darwin-arm64
+npm verbose reify failed optional dependency D:\shopping\node_modules\@img\sharp-darwin-x64
+npm verbose reify failed optional dependency D:\shopping\node_modules\@img\sharp-darwin-arm64
+npm http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 1565ms
+npm http fetch GET 200 https://registry.npmjs.org/postcss 132ms (cache revalidated)
+npm http fetch GET 200 https://registry.npmjs.org/webpack-dev-server 330ms (cache revalidated)
+npm http fetch GET 200 https://registry.npmjs.org/nth-check 337ms (cache revalidated)
+npm http fetch GET 200 https://registry.npmjs.org/css-select 121ms (cache revalidated)
+npm http fetch GET 200 https://registry.npmjs.org/resolve-url-loader 94ms (cache revalidated)
+npm http fetch GET 200 https://registry.npmjs.org/react-scripts 108ms (cache revalidated)
+npm http fetch GET 200 https://registry.npmjs.org/@pmmmwh%2freact-refresh-webpack-plugin 364ms (cache revalidated)
+npm http fetch GET 200 https://registry.npmjs.org/svgo 119ms (cache revalidated)
+npm http fetch GET 200 https://registry.npmjs.org/@svgr%2fplugin-svgo 117ms (cache revalidated)
+npm http fetch GET 200 https://registry.npmjs.org/@svgr%2fwebpack 122ms (cache revalidated)
+
+up to date, audited 1464 packages in 4s
+
+295 packages are looking for funding
+  run `npm fund` for details
+
+9 vulnerabilities (3 moderate, 6 high)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+npm verbose cwd D:\shopping
+npm verbose os Windows_NT 10.0.26100
+npm verbose node v20.17.0
+npm verbose npm  v10.8.3
+npm verbose exit 0
+npm info ok

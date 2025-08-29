@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Shopping Results</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f5f5f5;
+            margin: 20px;
+        }
+
+        .item {
+            background: #fff;
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+            display: flex;
+            gap: 15px;
+        }
+
+        .item img {
+            width: 120px;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .details {
+            flex: 1;
+        }
+
+        .title {
+            font-weight: bold;
+            font-size: 1.2em;
+            margin-bottom: 5px;
+        }
+
+        .price,
+        .delivery,
+        .review {
+            margin-bottom: 3px;
+        }
+
+        .sellers {
+            margin-top: 8px;
+        }
+
+        .seller {
+            font-size: 0.9em;
+        }
+
+        .seller a {
+            text-decoration: none;
+            color: #0077cc;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Shopping Results</h1>
+    <div id="results"></div>
+
+    <script>
+        // Paste your JSON here as a variable
+        const data = [
+            {
+                "title": "Apple iPhone 15",
+                "price": "₹69,900",
+                "delivery": "Free",
+                "review": "4.7",
+                "sellers": [
+                    {
+                        "url": "https://www.apple.com/in/shop/go/product/MTP43HN/A?cid=aos-in-seo-pla-iphone-iphone",
+                        "website": "Apple",
+                        "price": "₹69,900"
+                    },
+                    {
+                        "url": "https://www.amazon.in/Apple-iPhone-15-128-GB/dp/B0CHX2F5QT?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&psc=1&smid=AJ6SIZC8YQDZX",
+                        "website": "Amazon.in",
+                        "price": "₹61,499"
+                    },
+                    {
+                        "url": "https://www.vijaysales.com/p/P220946/220949/apple-iphone-15-128-gb-storage-blue",
+                        "website": "Vijay Sales",
+                        "price": "₹62,290"
+                    },
+                    {
+                        "url": "https://www.croma.com/apple-iphone-15-128gb-blue-/p/300684?srsltid=AfmBOoqFe5HwI7TpWu8ITRI6SIAXIHt9t1AA-32h3-Vs6tkiq8QLn5yACEY",
+                        "website": "Croma",
+                        "price": "₹64,490"
+                    }
+                ],
+                "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQeoj9vEdfpCQdhFcQQGjEoZoBZ5BdcZnsXa7RnCtHHcw7rZCm1Zrm6HFsHvCmI7laPu-3Robv6Z0ORzW3ZJqaAir_Hwm-3JhML_VNXTbjYS3cZS-Wp3n9NqA"
+            },
+            {
+                "title": "Apple iPhone 15 Pro",
+                "price": "₹79,999",
+                "delivery": null,
+                "review": "4.5",
+                "sellers": [
+                    {
+                        "url": "https://www.designinfo.in/p/apple-iphone-15-pro-128gb-natural-titanium-unlocked-gst-billing/",
+                        "website": "Design Info",
+                        "price": "₹79,999"
+                    },
+                    {
+                        "url": "https://iplanet.one/products/iphone-15-pro-mtux3hn-a?variant=46896657498421&country=IN&currency=INR&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&srsltid=AfmBOopEVixGI8_Ngrioq0uhpn0CKfMe5hqgS2C4R6x9GlswFbPguht5IqA",
+                        "website": "iPlanet",
+                        "price": "₹1,29,800"
+                    },
+                    {
+                        "url": "https://in.webuy.com/product-detail/?id=SAPPI15PR128GNATUNLA&srsltid=AfmBOoouaFWP0wyJ3KBvgPOcax-POg2OzJScmDwVdYveK4jhw_DRsm1F2Ak",
+                        "website": "CeX",
+                        "price": "₹86,000"
+                    }
+                ],
+                "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQe9JAI9ssnHULoSm_ub-KuTcFJAjW8Y-Ct-lOChyKe3yT4wJFI0IWS81X9hjpbyPN0XbzUCdPR1KLCh5Y7P0FCXAPMvC1PhOJLtvuquVOX46VI4pmOFIGw"
+            },
+            {
+                "title": "Apple iPhone 15 Plus",
+                "price": "₹69,999",
+                "delivery": null,
+                "review": "4.7",
+                "sellers": [
+                    {
+                        "url": "http://www.flipkart.com/apple-iphone-15-plus-black-128-gb/p/itme3a53984760fb?pid=MOBGTAGPNRQA7CS3&lid=LSTMOBGTAGPNRQA7CS3YEKCQO&marketplace=FLIPKART&cmpid=content_mobile_8965229628_gmc",
+                        "website": "Flipkart",
+                        "price": "₹69,999"
+                    },
+                    {
+                        "url": "https://www.vijaysales.com/p/P220961/220961/apple-iphone-15-plus-128-gb-storage-black",
+                        "website": "Vijay Sales",
+                        "price": "₹70,400"
+                    },
+                    {
+                        "url": "https://www.croma.com/apple-iphone-15-plus-128gb-black-/p/300770?srsltid=AfmBOooDj5kEQIa0xjAH8MOMZUzb1b-rbv8A7iAnndGK8JAZUQS4n2vsrfM",
+                        "website": "Croma",
+                        "price": "₹74,900"
+                    },
+                    {
+                        "url": "https://www.apple.com/in/shop/go/product/MU0Y3HN/A?cid=aos-in-seo-pla-iphone-iphone",
+                        "website": "Apple",
+                        "price": "₹79,900"
+                    }
+                ],
+                "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSdMPikrDCifku84SE4SG56NRq2vSnT2jWUiD_SENR1rQUGwMfh2yJfQCwfFmY4EnraXKx-0CfD4ob-kGd3egP_F4jcvPAbUlPase2pqOU"
+            }
+        ];
+
+        // Render the data
+        const container = document.getElementById("results");
+        data.forEach(item => {
+            const div = document.createElement("div");
+            div.className = "item";
+            div.innerHTML = `
+    <img src="${item.image || ""}" alt="${item.title}">
+    <div class="details">
+      <div class="title">${item.title}</div>
+      <div class="price">Price: ${item.price || "N/A"}</div>
+      <div class="delivery">Delivery: ${item.delivery || "N/A"}</div>
+      <div class="review">Review: ${item.review || "N/A"}</div>
+      <div class="sellers">
+        <strong>Sellers:</strong>
+        <ul>
+          ${item.sellers.map(s => `<li class="seller"><a href="${s.url}" target="_blank">${s.website}</a> - ${s.price}</li>`).join("")}
+        </ul>
+      </div>
+    </div>
+  `;
+            container.appendChild(div);
+        });
+    </script>
+
+</body>
+
+</html>
