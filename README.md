@@ -1,6 +1,6 @@
-# **bazaarly.ai** 🛍️
+# **Bazaarly.ai** 🛍️
 
-**bazaarly.ai** (One Stop Shop) is an AI-powered shopping assistant that acts as a personal salesman. It interacts with users to understand their preferences, scrapes the web for real-time products, and uses AI to recommend the best options automatically.
+**Bazaarly.ai** (One Stop Shop) is an AI-powered shopping assistant that acts as a personal salesman. It interacts with users to understand their preferences, scrapes the web for real-time products, and uses AI to recommend the best options automatically.
 
 -----
 
